@@ -2,7 +2,7 @@
 
 A responsive website displays the following Integrify's team members:
 
-![Image of the team members](./images/team-members.png)
+![Image of the team members](./images/team-members-all.png)
 
 [Direct link on Github](https://wael35nl.github.io/ISA-HTML-CSS-PreAssignment/)  
 [Direct link on Netlify](https://amazing-muffin-9c69c6.netlify.app)
