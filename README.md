@@ -20,4 +20,4 @@ A responsive website displays the following Integrify's team members:
   - Full-stack Trainer
     - Spain
 
-and contains links to register and contact details and social media, with a short description about the Academy.
+and contains links to register, contact details and social media, with a short description about the Academy.
