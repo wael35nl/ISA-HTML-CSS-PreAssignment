@@ -1,7 +1,4 @@
-const navList = document.getElementsByClassName('fa-list')[0];
-const navLinks = document.getElementsByClassName('nav-links')[0];
-const navList1 = document.getElementsByClassName('fa-list')[1];
-const navLinks1 = document.getElementsByClassName('nav-links')[1];
+import { navList, navLinks, navList1, navLinks1 } from "./elements.js";
 
 navList.addEventListener('click', () => {
     if (navLinks.style.display === 'flex') {
