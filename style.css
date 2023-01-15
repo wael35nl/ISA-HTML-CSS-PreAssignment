@@ -1,3 +1,10 @@
+:root {
+    --text-border-color: white;
+    --secondary-text-color: rgb(215, 215, 215);
+    --title-border-color: black;
+    --item-background-color: rgb(7, 63, 118);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +14,7 @@
 
 body {
     background-color: rgba(0, 0, 8, 0.93);
-    color: white;
+    color: var(--text-border-color);
     font-family: sans-serif;
     padding: 0 20px;
     text-align: center;
@@ -17,8 +24,8 @@ body {
     display: flex;
     justify-content: space-around;
     padding: 15px 0;
-    background-color: rgb(7, 63, 118);
-    border-bottom: 2px solid white;
+    background-color: var(--item-background-color);
+    border-bottom: 2px solid var(--text-border-color);
     margin-bottom: 20px;
 }
 
@@ -34,16 +41,16 @@ body {
 
 /* for both upper and lower nav */
 nav a {
-    color: white;
+    color: var(--text-border-color);
     text-decoration: none;
 }
 
 #members-section {
-    background-color: white;
+    background-color: var(--text-border-color);
 }
 
 #members-section h2 {
-    color: black;
+    color: var(--title-border-color);
 }
 
 #members {
@@ -59,11 +66,11 @@ nav a {
 }
 
 #members img[alt="personal photo of Anisul Islam"], #members img[alt="personal photo of Lisa Milton"], .member {
-    border: 1px solid black;
+    border: 1px solid var(--title-border-color);
 }
 
 .member {
-    background-color: rgb(7, 63, 118);
+    background-color: var(--item-background-color);
 }
 
 .member img {
@@ -77,14 +84,14 @@ nav a {
 }
 
 .member p {
-    color: rgb(230, 230, 230);
+    color: var(--secondary-text-color);
     font-size: 0.65rem;
     line-height: 20px;
 }
 
 footer {
     align-items: center;
-    border-top: 2px solid white;
+    border-top: 2px solid var(--text-border-color);
     margin-top: 20px;
     border-bottom: 0;
     margin-bottom: 0;
@@ -106,7 +113,7 @@ ul li:nth-child(2), footer p {
 
 footer p {
     text-align: left;
-    color: rgb(215, 215, 215);
+    color: var(--secondary-text-color);
 }
 
 .fa-brands {
@@ -115,7 +122,6 @@ footer p {
 
 /* screen-size from 240 pixel*/
 @media all and (min-width: 1201px) and (max-width: 1368px) {
-    
     .member h5 {
         font-size: 11px;
         margin: 17px 0 8px 0;
@@ -150,8 +156,8 @@ footer p {
     ul {
         padding-top: 10px;
         padding-bottom: 10px;
-        border-top: 2px solid white;
-        border-bottom: 2px solid white;
+        border-top: 2px solid var(--text-border-color);
+        border-bottom: 2px solid var(--text-border-color);
     }
 }
 
@@ -178,8 +184,8 @@ footer p {
     ul {
         padding-top: 10px;
         padding-bottom: 10px;
-        border-top: 2px solid white;
-        border-bottom: 2px solid white;
+        border-top: 2px solid var(--text-border-color);
+        border-bottom: 2px solid var(--text-border-color);
     }
 }
 
@@ -214,7 +220,7 @@ footer p {
 
     ul {
         padding-bottom: 10px;
-        border-bottom: 2px solid white;
+        border-bottom: 2px solid var(--text-border-color);
     }
     
     footer p {
@@ -255,7 +261,7 @@ footer p {
 
     ul {
         padding-bottom: 10px;
-        border-bottom: 2px solid white;
+        border-bottom: 2px solid var(--text-border-color);
     }
     
     footer p {
@@ -296,7 +302,7 @@ footer p {
 
     ul {
         padding-bottom: 10px;
-        border-bottom: 2px solid white;
+        border-bottom: 2px solid var(--text-border-color);
     }
     
     footer p {
@@ -337,7 +343,7 @@ footer p {
 
     ul {
         padding-bottom: 10px;
-        border-bottom: 2px solid white;
+        border-bottom: 2px solid var(--text-border-color);
     }
     
     footer p {
